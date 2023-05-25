@@ -18,3 +18,15 @@ function() {
     list(id=4,name='lucho')
   )
 }
+
+#* Get posts
+#* @get /posts
+#* @serializer unboxedJSON
+function() {
+  list(
+    list(id=1,title='david'),
+    list(id=2,title='cami'),
+    list(id=3,title='jp'),
+    list(id=4,title='lucho')
+  )
+}
